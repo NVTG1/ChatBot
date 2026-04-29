@@ -10,14 +10,16 @@ body {
 }
 
 .app {
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 20px;
 }
 
 .chat-container {
-  width: 900px;
+  width: 100%;
+  max-width: 900px;
   height: 90vh;
   background: #111827;
   border-radius: 20px;
@@ -36,6 +38,7 @@ body {
 
 .header h2 {
   color: white;
+  font-size: 28px;
 }
 
 .buttons {
@@ -55,6 +58,7 @@ body {
   color: white;
   cursor: pointer;
   transition: 0.3s;
+  font-size: 15px;
 }
 
 .buttons button:hover {
@@ -83,11 +87,12 @@ body {
 }
 
 .message {
-  max-width: 70%;
+  max-width: 75%;
   padding: 15px 20px;
   border-radius: 18px;
   line-height: 1.6;
   font-size: 15px;
+  word-wrap: break-word;
 }
 
 .user {
@@ -138,4 +143,66 @@ body {
 
 .input-area button:hover {
   background: #1d4ed8;
+}
+
+/* MOBILE RESPONSIVE */
+@media (max-width: 768px) {
+  .app {
+    padding: 0;
+  }
+
+  .chat-container {
+    height: 100vh;
+    border-radius: 0;
+  }
+
+  .header {
+    padding: 15px;
+  }
+
+  .header h2 {
+    font-size: 22px;
+  }
+
+  .buttons {
+    flex-wrap: wrap;
+    padding: 10px;
+  }
+
+  .buttons button {
+    min-width: 110px;
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  .chat-box {
+    padding: 15px;
+  }
+
+  .message {
+    max-width: 90%;
+    font-size: 14px;
+    padding: 12px 15px;
+  }
+
+  .welcome {
+    margin-top: 50px;
+    font-size: 16px;
+  }
+
+  .input-area {
+    padding: 12px;
+    gap: 10px;
+  }
+
+  .input-area textarea {
+    height: 50px;
+    font-size: 14px;
+    padding: 12px;
+  }
+
+  .input-area button {
+    width: 90px;
+    font-size: 14px;
+  }
 }
