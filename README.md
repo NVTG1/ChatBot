@@ -112,7 +112,7 @@ Frontend runs at `http://localhost:5173`
 
 ### Backend → Railway
 1. Push your `backend/` folder to GitHub
-2. Create a new project on [railway.app](https://render.com)
+2. Create a new project on [Render](https://render.com)
 3. Add `GROQ_API_KEY` and `PORT` as environment variables
 4. Deploy — Railway auto-detects Node.js
 
