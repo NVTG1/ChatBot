@@ -9,13 +9,13 @@ A persona-based AI chatbot that lets you have real conversations with three Scal
 ---
 
 ## Screenshots
-![AnshumanSir](./Screenshots/screenshot1.png)   
+![AnshumanSir](./Screenshots/screenshot1.jpeg)   
 
 ---
-![AbhimanyuSir](./Screenshots/screenshot2.png) 
+![AbhimanyuSir](./Screenshots/screenshot2.jpeg) 
 
 ---
-![KshitijSir](./Screenshots/screenshot3.png)
+![KshitijSir](./Screenshots/screenshot3.jpeg)
 
 ---
 
