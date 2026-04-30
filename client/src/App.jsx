@@ -53,21 +53,21 @@ function App() {
         <div className="buttons">
           <button
             className={persona === "anshuman" ? "active" : ""}
-            onClick={() => setPersona("anshuman")}
+            onClick={() => { setPersona("anshuman"); setChat([]); }}
           >
             Anshuman
           </button>
 
           <button
             className={persona === "abhimanyu" ? "active" : ""}
-            onClick={() => setPersona("abhimanyu")}
+            onClick={() => { setPersona("abhimanyu"); setChat([]); }}
           >
             Abhimanyu
           </button>
 
           <button
             className={persona === "kshitij" ? "active" : ""}
-            onClick={() => setPersona("kshitij")}
+            onClick={() => { setPersona("kshitij"); setChat([]); }}
           >
             Kshitij
           </button>
