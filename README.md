@@ -8,6 +8,9 @@ A persona-based AI chatbot that lets you have real conversations with three Scal
 
 ---
 
+## Screenshots
+![AnshumanSir](./Screenshots/screenshot1.png)   ![AbhimanyuSir](./Screenshots/screenshot2.png)   ![KshitijSir](./Screenshots/screenshot3.png)
+
 ## Tech Stack
 
 | Layer    | Technology                        |
